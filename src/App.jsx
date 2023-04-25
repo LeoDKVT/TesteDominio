@@ -8,14 +8,17 @@ import Contato from "./components/pages/Contato";
 
 export default function App() {
   return (
+    <>
+    <h1>Hello word kkk</h1>
+    </>
     //Rotas
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contato" element={<Contato />} />
-      </Routes>
-    </Router>
+  //  <Router>
+    //  <Routes>
+      //  <Route path="/" element={<Home />} />
+      //  <Route path="/portfolio" element={<Portfolio />} />
+      //  <Route path="/blog" element={<Blog />} />
+      //  <Route path="/contato" element={<Contato />} />
+    //  </Routes>
+   // </Router>
   );
 }
