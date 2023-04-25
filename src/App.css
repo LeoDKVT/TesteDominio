@@ -1,0 +1,26 @@
+/* Fundo da página */
+body {
+  background-color: #070707;
+}
+
+/* Outras cores */
+.bg-escuro {
+  background-color: #101010;
+}
+
+/* degrade dos textos */
+.degradePink {
+  background-image: linear-gradient(to bottom, #ff0077, #692c7e);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.degradeOrange {
+  background-image: linear-gradient(#fcb045, #63084d);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

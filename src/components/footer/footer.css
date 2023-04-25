@@ -1,0 +1,31 @@
+/* footer do site */
+.redesocial a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.redesocial #whatsapp {
+  margin-right: 0px;
+}
+
+.redesocial i {
+  color: #63084d;
+  font-size: 40px;
+  transition-duration: 0.3s;
+}
+
+.redesocial #gmail i:hover {
+  color: #c71610;
+}
+
+.redesocial #linkedin i:hover {
+  color: #0e76a8;
+}
+
+.redesocial #github i:hover {
+  color: #fff;
+}
+
+.redesocial #whatsapp i:hover {
+  color: #25d366;
+}
